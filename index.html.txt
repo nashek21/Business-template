@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /
+  <title>Business Name | Services</title>
+  <meta name="description" content="Short description of what the business does." />
+  <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+
+   <header class="site-header">
+   <div class="container header-inner">
+   <a class="logo" href="#home">BusinessName</a>
+
+   <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria expanded="false">
+     =
+   </button>
+
+   <nav class="nav" id="nav">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href=#testimonials">Testimonials</a>
+    <a class="btn" href="#contact">Contact</a>
+   </nav>
+  <div>
+  </header>
+
+ <main id="home" class="hero">
+ <div class="container hero-inner">
+  <div>
+   <h1>We help you <span class="accent">solve a problem</span> fast.</h1>
+   <p class="lead">
+      Replace with sentence about business......
+   </p>
+
+ <div class="hero-actions">
+   <a class="btn" href="#contact">Get a Quote</a>
+   <a class="btn-outline" href="#services">View Services</a>
+  </div>
+
+<div class="trust">
+ <div class="trust-item">
+  <strong> 4/5</strong>
+  <span>Customer rating</span>
+ </div>
+<div class="trust-item">
+  <strong>500+</strong>
+  <span>Happy clients</span>
+ </div>
+<div class="hero-card">
+  <h2>Hours</h2>
+  <p>Mon-Fri: </p>
+  <p>Sat: </p>
+  <p>Sun: </p>
+  <hr />
+  <p><strong>Call:</strong>number here!</p>
+  <p><strong>Location:</strong> City, state</p>
+  </div>
+  </div>
+</main>
+
+<section id="about" class="section">
+ <div class="container grid-2">
+  <div>
+  <h2>About Us</h2>
+  <p>
+  write brief tempelate about the business.....
+  </p>
+  <ul class="checklist">
+   <li>Licensed and insured<li>
+   <li>transparent pricing<li>
+   <li>friendly and professional</li>
+  </ul>
+ </div>
+ <div class="card">
+  <h3>Why chose us</h3>
+  <p> Fast response time</p>
+  <p> Quality work</p>
+  <p> Affordable pacakages</p>
+  <p> Great communication</p>
+ </div>
+ </div>
+</section>
+
+<section id="services" class="section alt">
+ <div class="container">
+  <h2>Services</h2>
+<p class="muted">write services offered....</p>
+
+<div class="card">
+ <article class="service">
+ <h3>Service One</h3>
+ <p>description of service</p>
+ <p class="price">...</p>
+</article>
+
+<article class="service">
+ <h3>Service 2</h3>
+ <p>description of service</p>
+ <p class="price">....</p>
+</article>
+
+<article class="service">
+ <h3>Service Three</h3>
+ <p>description of service</p>
+ <p class="price">...</p>
+</article>
+</div>
+</section>
+
+<section id="testimonials" class="section alt">
+ <div class="container">
+  <h2>Gallery</h2>
+  <p class="muted">add photots of your work.....</p>
+
+<div class="gallery">
+ <div class="ph">photo1</div>
+ <div class="ph">photo2</div>
+ <div class="ph">photo3</div>
+ <div class="ph">photo4</div>
+</div>
+</div>
+</section>
+
+<section id="testimonials" class="section alt">
+ <div class="container">
+ <h2>Testimonials</h2>
+ 
+<div class="cards">
+<article class="testimonials">
+ <p>put comment here.....</p>
+ <strong>Client Name</strong>
+</article>
+
+<article class="testimonials">
+ <p>put comment here....</p>
+ <strong>Client Name</strong>
+</article>
+</div>
+</div>
+</section>
+
+<section id="contact" class="section">
+ <div class="container grid-2">
+  <div>
+  <h2>Contact</h2>
+  <p class="muted">
+   put message here....
+  </p>
+
+<div class="contact-list">
+ <p><strong>Phone:</strong>put number here....</p>
+ <p><strong>Email:</strong>put email here....</p>
+ <p><strong>Location:</strong>put location here...</p>
+</div>
+
+<a class="btn" href="#">Message on .....</a>
+</div>
+
+<form class="form" onsubmit="return false;">
+ <label>
+   Full Name
+   <input type="text" placeholder="Your name" required />
+ </label>
+
+<label>
+  Email
+  <input type="email" placeholder="you@example.com" required />
+</label>
+
+<label>
+  Message
+  <textarea rows="5" placeholder="How can we help?" required></textarea>
+</label>
+
+  <button class="btn" type="submit">Send Message</button>
+  <p class="muted small">This is a template.</p>
+  </form>
+ </div>
+</section>
+
+<footer class="footer">
+ <div class="container footer-inner">
+  <p><span id="year"></span>BusinessName. All rights reserved.</p>
+  <div class="social">
+   <a href="#">Instagram</a>
+   <a href="#">Facebook</a>
+   <a href="#">Google</a>
+  </div>
+ </div>
+</footer>
+
+  <script src="script.js></script>
+ </body>
+ </html>
